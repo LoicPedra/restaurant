@@ -437,16 +437,20 @@
   <script id="template-receipes" type="x-tmpl-mustache">
     {{#each data}}
       <div class="col-lg-6 menu-item isotope-item filter-{{category}}">
-        <img src="assets/img/{{image}}" class="menu-img {{watermark}} " alt="">
+        <img src="{{image}}" class="menu-img {{watermark}} " alt="">
         <div class="menu-content">
-          <a href="#">{{name}}</a>
-          <span data-receipe-modal-title="{{name}}" style="cursor: pointer;"
+          <span>{{name}}</span>
+          <span data-receipe-modal-title="{{name}}"
               data-receipe-modal-description="{{description}}" 
               data-receipe-modal-ingredients="{{ingredients}}" 
-              data-receipe-modal-description="{{description}}">Voir plus</span>
+              data-receipe-modal-description="{{description}}">Gratuit</span>
         </div>
         <div class="menu-ingredients">
           {{ingredients}}
+          {{#each extra}}
+            <br />
+            {{.}}
+          {{/each}}
         </div>
       </div>
     {{/each}}
