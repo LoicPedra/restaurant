@@ -82,7 +82,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/about.jpg" class="img-fluid about-img" alt="">
+            <img src="assets/img/about.jpg" class="img-fluid about-img watermarked" alt="">
           </div>
           <div class="col-lg-6 order-2 order-lg-1 content">
             <h3>Un concept unique en son genre</h3>
@@ -117,16 +117,12 @@
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
-            <ul class="menu-filters isotope-filters">
-              <li data-filter="*" class="filter-active">Tous</li>
-              <li data-filter=".filter-starters">Plats chauds</li>
-              <li data-filter=".filter-specialty">Plats froids</li>
-              <li data-filter=".filter-salads">Salades</li>
+            <ul class="menu-filters isotope-filters" id="recipe-categories">
             </ul>
           </div>
         </div><!-- Menu Filters -->
 
-        <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200" id="menu-recipes">
 
           <div class="col-lg-6 menu-item isotope-item filter-starters">
             <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
@@ -225,61 +221,49 @@
     </section><!-- /Menu Section -->
 
     <!-- Book A Table Section -->
-    <section id="book-a-table" class="book-a-table section">
+    <section id="book-a-table" class="book-a-table section" style="padding-bottom: 0px;">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>RESERVATION</h2>
-        <p>Book a Table</p>
+        <p>Choisissez votre moment de plaisir</p>
       </div><!-- End Section Title -->
+    </section><!-- /Book A Table Section -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <section id="why-us" class="why-us section" style="padding-top: 0px;">
+      <div class="container">
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
-          <div class="row gy-4">
-            <div class="col-lg-4 col-md-6">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <input type="date" name="date" class="form-control" id="date" placeholder="Date" required="">
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <input type="time" class="form-control" name="time" id="time" placeholder="Time" required="">
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <input type="number" class="form-control" name="people" id="people" placeholder="# of people" required="">
-            </div>
-          </div>
+        <div class="row gy-4" id="dates">
 
-          <div class="form-group mt-3">
-            <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-          </div>
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <span>02</span>
+              <h4><a href="" class="stretched-link">Repellat Nihil</a></h4>
+              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+            </div>
+          </div><!-- Card Item -->
 
-          <div class="text-center mt-3">
-            <div class="loading">Loading</div>
-            <div class="error-message"></div>
-            <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
-            <button type="submit">Book a Table</button>
-          </div>
-        </form><!-- End Reservation Form -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <span>03</span>
+              <h4><a href="" class="stretched-link">Ad ad velit qui</a></h4>
+              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+            </div>
+          </div><!-- Card Item -->
+
+        </div>
 
       </div>
 
-    </section><!-- /Book A Table Section -->
+    </section>
 
     <!-- Gallery Section -->
     <section id="gallery" class="gallery section">
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Gallery</h2>
-        <p>Some photos from Our Restaurant</p>
+        <h2>Gallerie</h2>
+        <p>De quoi mettre l'eau à la bouche</p>
       </div><!-- End Section Title -->
 
       <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
@@ -288,65 +272,49 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
-              </a>
+              <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid watermarked">
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
-              </a>
+              <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid watermarked">
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
-              </a>
+              <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid watermarked">
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
-              </a>
+              <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid watermarked">
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
-              </a>
+              <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid watermarked">
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
-              </a>
+              <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid watermarked">
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-              </a>
+              <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid watermarked">
             </div>
           </div><!-- End Gallery Item -->
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-              </a>
+              <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid watermarked">
             </div>
           </div><!-- End Gallery Item -->
 
@@ -371,17 +339,11 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid watermarked-dark" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Walter White</h4>
                   <span>Master Chef</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -389,17 +351,11 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid watermarked" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Sarah Jhonson</h4>
                   <span>Patissier</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -407,17 +363,11 @@
 
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid watermarked-dark" alt="">
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>William Anderson</h4>
                   <span>Cook</span>
-                </div>
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter-x"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -444,6 +394,24 @@
 
   </footer>
 
+  <div id="static-modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+          <h4 class="modal-title">Modal title</h4>
+        </div>
+        <div class="modal-body">
+          <p>One fine body…</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
@@ -459,6 +427,46 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
+  <script id="template-receipes-categ" type="x-tmpl-mustache">
+    <li data-filter="*" class="filter-active">Tous</li>
+
+    {{#each data}}
+      <li data-filter=".filter-{{key}}">{{label}}</li>
+    {{/each}}
+  </script>
+  <script id="template-receipes" type="x-tmpl-mustache">
+    {{#each data}}
+      <div class="col-lg-6 menu-item isotope-item filter-{{category}}">
+        <img src="assets/img/{{image}}" class="menu-img {{watermark}} " alt="">
+        <div class="menu-content">
+          <a href="#">{{name}}</a>
+          <span data-receipe-modal-title="{{name}}" style="cursor: pointer;"
+              data-receipe-modal-description="{{description}}" 
+              data-receipe-modal-ingredients="{{ingredients}}" 
+              data-receipe-modal-description="{{description}}">Voir plus</span>
+        </div>
+        <div class="menu-ingredients">
+          {{ingredients}}
+        </div>
+      </div>
+    {{/each}}
+  </script>
+  <script id="template-dates" type="x-tmpl-mustache">
+    {{#each data}}
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="card-item">
+          <span>{{date}}</span>
+          <h4><a href="" class="stretched-link">{{description}}</a></h4>
+        </div>
+      </div>
+    {{/each}}
+  </script>
+    
+  <script src="assets/js/lib/watermark.js"></script>
+  <!-- <script src="assets/js/lib/modal.js"></script> -->
+  <script src="assets/js/watermark.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="assets/js/recipes.js"></script>
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
