@@ -1,6 +1,6 @@
-Handlebars.registerHelper('stringify', function (aString) {
-  return aString.toUpperCase()
-})
+function openRepice() {
+  new Modal({el: document.getElementById('static-modal')}).show();
+}
 
 const dataCategories = [
   {
@@ -36,7 +36,29 @@ const dataRecipes = [
 ];
 renderTemplate('template-receipes', dataRecipes, 'menu-recipes')
 
+const dataDates = [
+  {
+    date: "28 Octobre",
+    description: "A partir de 18h"
+  },
+  {
+    date: "30 Octobre",
+    description: "A partir de 18h"
+  },
+  {
+    date: "31 Octobre",
+    description: "A partir de 18h"
+  },
+  {
+    date: "1er Novembre",
+    description: "A partir de 11h00"
+  },
+];
+renderTemplate('template-dates', dataDates, 'dates')
+
 watermakImages()
+
+//openRepice()
 
 function renderTemplate(idTemplate, data, idTarget) {
   const templateHtml = document.getElementById(idTemplate);
