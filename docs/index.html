@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Restaurantly Bootstrap Template</title>
+  <title>Chez Lolo</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -53,9 +53,12 @@
   <main class="main">
 
     <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+    <section id="hero" class="hero section dark-background" style="background-image: '/restaurant/'';">
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
+      <!--<img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">-->
+      <video autoplay>
+        <source src="assets/video/TimelineCuisineHome.mp4" type="video/mp4" />
+      </video>
 
       <div class="container">
         <div class="row">
@@ -78,11 +81,11 @@
     <!-- About Section -->
     <section id="about" class="about section">
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
 
         <div class="row gy-4">
           <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/about.jpg" class="img-fluid about-img watermarked" alt="">
+            <img src="assets/img/place.png" class="img-fluid about-img watermarked" alt="">
           </div>
           <div class="col-lg-6 order-2 order-lg-1 content">
             <h3>Un concept unique en son genre</h3>
@@ -108,111 +111,23 @@
     <section id="menu" class="menu section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title">
         <h2>Menu</h2>
         <p>Succombez à notre délicieuse carte</p>
+        <h6><small>Nos plats sont tous annotés avec un indice de confiance :</small></h6>
+        <h6><small>De 1/5 (prenez si possible un autre plat) à 5/5 (je matrise ce plat, vous pouvez me faire confiance)</small></h6>
       </div><!-- End Section Title -->
 
       <div class="container isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul class="menu-filters isotope-filters" id="recipe-categories">
             </ul>
           </div>
         </div><!-- Menu Filters -->
 
-        <div class="row isotope-container" data-aos="fade-up" data-aos-delay="200" id="menu-recipes">
-
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/lobster-bisque.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Lobster Bisque</a><span>$5.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div><!-- Menu Item -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/bread-barrel.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Bread Barrel</a><span>$6.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div><!-- Menu Item -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/cake.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Crab Cake</a><span>$7.95</span>
-            </div>
-            <div class="menu-ingredients">
-              A delicate crab cake served on a toasted roll with lettuce and tartar sauce
-            </div>
-          </div><!-- Menu Item -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/menu/caesar.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Caesar Selections</a><span>$8.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div><!-- Menu Item -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/tuscan-grilled.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Tuscan Grilled</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Grilled chicken with provolone, artichoke hearts, and roasted red pesto
-            </div>
-          </div><!-- Menu Item -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-starters">
-            <img src="assets/img/menu/mozzarella.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Mozzarella Stick</a><span>$4.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Lorem, deren, trataro, filede, nerada
-            </div>
-          </div><!-- Menu Item -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/menu/greek-salad.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Greek Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach, crisp romaine, tomatoes, and Greek olives
-            </div>
-          </div><!-- Menu Item -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-salads">
-            <img src="assets/img/menu/spinach-salad.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Spinach Salad</a><span>$9.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
-            </div>
-          </div><!-- Menu Item -->
-
-          <div class="col-lg-6 menu-item isotope-item filter-specialty">
-            <img src="assets/img/menu/lobster-roll.jpg" class="menu-img" alt="">
-            <div class="menu-content">
-              <a href="#">Lobster Roll</a><span>$12.95</span>
-            </div>
-            <div class="menu-ingredients">
-              Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
-            </div>
-          </div><!-- Menu Item -->
+        <div class="row isotope-container" id="menu-recipes">
 
         </div><!-- Menu Container -->
 
@@ -224,7 +139,7 @@
     <section id="book-a-table" class="book-a-table section" style="padding-bottom: 0px;">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title">
         <h2>RESERVATION</h2>
         <p>Choisissez votre moment de plaisir</p>
       </div><!-- End Section Title -->
@@ -235,7 +150,7 @@
 
         <div class="row gy-4" id="dates">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4">
             <div class="card-item">
               <span>02</span>
               <h4><a href="" class="stretched-link">Repellat Nihil</a></h4>
@@ -243,7 +158,7 @@
             </div>
           </div><!-- Card Item -->
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4">
             <div class="card-item">
               <span>03</span>
               <h4><a href="" class="stretched-link">Ad ad velit qui</a></h4>
@@ -257,78 +172,11 @@
 
     </section>
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Gallerie</h2>
-        <p>De quoi mettre l'eau à la bouche</p>
-      </div><!-- End Section Title -->
-
-      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-0">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid watermarked">
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid watermarked">
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid watermarked">
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid watermarked">
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid watermarked">
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid watermarked">
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid watermarked">
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid watermarked">
-            </div>
-          </div><!-- End Gallery Item -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Gallery Section -->
-
     <!-- Chefs Section -->
     <section id="chefs" class="chefs section">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title">
         <h2>Nos chefs</h2>
         <p>Nos artistes en cuisine</p>
       </div><!-- End Section Title -->
@@ -337,37 +185,37 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4">
             <div class="member">
-              <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid watermarked-dark" alt="">
+              <img src="assets/img/chef1.png" width="500" height="600" class="img-fluid watermarked-dark" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Master Chef</span>
+                  <h4>Loïc Leconcentré</h4>
+                  <span>Chef d'équipe</span>
                 </div>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-4">
             <div class="member">
-              <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid watermarked" alt="">
+              <img src="assets/img/chef2.png" width="500" height="600" class="img-fluid watermarked" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Patissier</span>
+                  <h4>Loïc Leverseur</h4>
+                  <span>Chef spécialisé dans la cuisine liquide</span>
                 </div>
               </div>
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4">
             <div class="member">
-              <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid watermarked-dark" alt="">
+              <img src="assets/img/chef3.png" width="500" height="600" class="img-fluid watermarked-dark" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>Cook</span>
+                  <h4>Loïc Perplexe</h4>
+                  <span>Apprenti cuisinier</span>
                 </div>
               </div>
             </div>
@@ -443,7 +291,7 @@
           <span data-receipe-modal-title="{{name}}"
               data-receipe-modal-description="{{description}}" 
               data-receipe-modal-ingredients="{{ingredients}}" 
-              data-receipe-modal-description="{{description}}">Gratuit</span>
+              data-receipe-modal-description="{{description}}">{{indice}}</span>
         </div>
         <div class="menu-ingredients">
           {{ingredients}}
@@ -457,7 +305,7 @@
   </script>
   <script id="template-dates" type="x-tmpl-mustache">
     {{#each data}}
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+      <div class="col-lg-4">
         <div class="card-item">
           <span>{{date}}</span>
           <h4><a href="" class="stretched-link">{{description}}</a></h4>
@@ -466,10 +314,10 @@
     {{/each}}
   </script>
     
-  <script src="assets/js/lib/watermark.js"></script>
+  <!-- <script src="assets/js/lib/watermark.js"></script> -->
   <!-- <script src="assets/js/lib/modal.js"></script> -->
-  <script src="assets/js/watermark.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <!-- <script src="assets/js/watermark.js"></script> -->
+  <script src="assets/js/lib/handlebars.js"></script>
   <script src="assets/js/recipes.js"></script>
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
