@@ -24,14 +24,16 @@ const dataRecipes = [
     category: "no-meat",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: "Sushi",
-    ingredients: "Sushi thon, Sushi avocat, Sushi fromage"
+    ingredients: "Sushi thon, Sushi avocat, Sushi fromage",
+    indice: "4/5"
   },
   {
     category: "hot",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: "Spaghetti carbonara à la française",
     ingredients: "Crème fraîche, lardon",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "4/5"
   },
   {
     category: "hot",
@@ -41,7 +43,8 @@ const dataRecipes = [
     extra: [
       "Extra(s) : Parmesan"
     ],
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "4/5"
   },
   {
     category: "hot",
@@ -51,21 +54,24 @@ const dataRecipes = [
     extra: [
       "Extra(s) : Parmesan"
     ],
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "5/5"
   },
   {
     category: "hot",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: "Rigatoni au pesto",
     ingredients: "Pesto",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "3/5"
   },
   {
     category: "hot",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: "Rigatoni au boursin",
     ingredients: "Boursin",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "4/5"
   },
   {
     category: "hot",
@@ -75,7 +81,8 @@ const dataRecipes = [
     extra: [
       "Extra(s) : Oeuf (croque madame)"
     ],
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "5/5"
   },
   {
     category: "hot",
@@ -85,7 +92,8 @@ const dataRecipes = [
     extra: [
       "Extra(s) : Lardons"
     ],
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "4/5"
   },
   {
     category: "hot",
@@ -96,14 +104,16 @@ const dataRecipes = [
       "Extra(s) : Tomate, salade, fromage",
       "Sauce(s) : Barbecue, Burger, Ketchup, Mayonnaise"
     ],
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "4/5"
   },
   {
     category: "hot",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: "Saucisses au curry",
     ingredients: "Concentré de tomates, curry, saucisses de Francfort, pâtes coquillettes",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "5/5"
   },
   {
     category: "hot",
@@ -114,7 +124,8 @@ const dataRecipes = [
       "Extra(s) : Jambom, chèvre/miel, champignon, olive",
       "Base(s) : Tomate, crème fraîche"
     ],
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "3/5"
   },
   {
     category: "hot",
@@ -125,49 +136,56 @@ const dataRecipes = [
       "Extra(s) : Jambom, chèvre/miel, champignon, olive",
       "Base(s) : Tomate, crème fraîche"
     ],
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "5/5"
   },
   {
     category: "salads",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: 'Salade grand-mère',
     ingredients: "Lardons, Croutons, Oeuf, Pommes de terre",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "4/5"
   },
   {
     category: "hot",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: 'Nouilles chinoises sautées au poulet/boeuf',
     ingredients: "",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "2/5"
   },
   {
     category: "hot",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: 'Porc/poulet au caramel (avec riz)',
     ingredients: "",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "2/5"
   },
   {
     category: "hot",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: 'Risotto au chorizo',
     ingredients: "",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "4/5"
   },
   {
     category: "salads",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: 'Salade parisienne',
     ingredients: "Cubes de jambon, Oeufs, Champignons",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "4/5"
   },
   {
     category: "hot",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: 'Tagiatelle au saumon',
     ingredients: "Cubes de jambon, Oeufs, Champignons",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "4/5"
   },
   {
     category: "no-meat",
@@ -177,14 +195,16 @@ const dataRecipes = [
     extra: [
       "Extra(s) : Kiri mixé avec le vélouté, croutons de pain"
     ],
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "3/5"
   },
   {
     category: "hot",
     image: "https://placehold.co/400", // assets/img/menu/lobster-bisque.jpg
     name: 'Cordon bleu, sauce crème champignons',
     ingredients: "",
-    watermark: "watermark-dark"
+    watermark: "watermark-dark",
+    indice: "4/5"
   },
 ];
 renderTemplate('template-receipes', dataRecipes, 'menu-recipes')
@@ -206,10 +226,14 @@ const dataDates = [
     date: "1er Novembre",
     description: "A partir de 11h00"
   },
+  {
+    date: "Plus à venir ...",
+    description: ""
+  },
 ];
 renderTemplate('template-dates', dataDates, 'dates')
 
-watermakImages()
+//watermakImages()
 
 //openRepice()
 
